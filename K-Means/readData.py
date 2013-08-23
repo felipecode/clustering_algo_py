@@ -1,11 +1,11 @@
 import dircache
 import re
 
-def readData(path,pop): # recebe o arquivo onde estao os dados, funcao deve ser reimplementada para cada tipo de dado
+def readData(path,pop): # The path with the readed datafile.   pop is a specific flag for the example database
 
 
 
-    files=dircache.listdir(path)  # lista os arquivos existentes no diretorio
+    files=dircache.listdir(path)  # List files at a dir
     #print files
     points = []
     for i in files:    # iterate over the files
